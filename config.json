@@ -1,0 +1,1554 @@
+{
+  "title": "Awesome Python",
+  "description": "An enriched version of the [awesome-python](https://github.com/vinta/awesome-python) generated with [awesome](https://github.com/gribouille/awesome).",
+  "categories": [
+    {
+      "title": "Awesome Python",
+      "categories": [
+        {
+          "title" : "Admin Panels",
+          "description": "Libraries for administrative interfaces.",
+          "items": [
+            {"url": "ajenti/ajenti"},
+            {"url": "http://djangosuit.com/", "name": "django-suit", "description": "Alternative Django Admin-Interface (free only for Non-commercial use)."},
+            {"url": "sshwsfc/xadmin"},
+            {"url": "flask-admin/flask-admin"},
+            {"url": "mher/flower"},
+            {"url": "http://grappelliproject.com", "name": "Grappelli", "description": "A jazzy skin for the Django Admin-Interface."},
+            {"url": "wooey/wooey"}
+          ]
+        },
+        {
+          "title" : "Algorithms and Design Patterns",
+          "description": "Python implementation of algorithms and design patterns.",
+          "items": [
+            {"url": "keon/algorithms"},
+            {"url": "tylerlaberge/PyPattyrn"},
+            {"url": "faif/python-patterns"},
+            {"url": "http://www.grantjenks.com/docs/sortedcontainers/", "name": "sortedcontainers", "description": "Fast, pure-Python implementation of SortedList, SortedDict, and SortedSet types."}
+          ]
+        },
+        {
+          "title" : "Anti-spam",
+          "description": "Libraries for fighting spam.",
+          "items": [
+            {"url": "mbi/django-simple-captcha"},
+            {"url": "moqada/django-simple-spam-blocker"}
+          ]
+        },
+        {
+          "title" : "Asset Management",
+          "description": "Tools for managing, compressing and minifying website assets.",
+          "items": [
+            {"url": "django-compressor/django-compressor"},
+            {"url": "jazzband/django-pipeline"},
+            {"url": "jschneier/django-storages"},
+            {"url": "http://www.fanstatic.org/en/latest/", "name": "fanstatic", "description": "Packages, optimizes, and serves static file dependencies as Python packages."},
+            {"url": "http://wimleers.com/fileconveyor", "name": "fileconveyor", "description": "A daemon to detect and sync files to CDNs, S3 and FTP."},
+            {"url": "miracle2k/flask-assets"},
+            {"url": "jaysonsantos/jinja-assets-compressor"},
+            {"url": "miracle2k/webassets"}
+          ]
+        },
+        {
+          "title" : "Audio",
+          "description": "Libraries for manipulating audio.",
+          "items": [
+            {"url": "danilobellini/audiolazy"},
+            {"url": "beetbox/audioread"},
+            {"url": "http://beets.io/", "name": "beets", "description": "A music library manager and [MusicBrainz](https://musicbrainz.org/) tagger."},
+            {"url": "worldveil/dejavu"},
+            {"url": "StreetVoice/django-elastic-transcoder"},
+            {"url": "http://eyed3.nicfit.net/", "name": "eyeD3", "description": "A tool for working with audio files, specifically MP3 files containing ID3 metadata."},
+            {"url": "https://nedbatchelder.com/code/modules/id3reader.py", "name": "id3reader", "description": "A Python module for reading MP3 meta data."},
+            {"url": "globocom/m3u8"},
+            {"url": "http://bspaans.github.io/python-mingus/", "name": "mingus", "description": "An advanced music theory and notation package with MIDI file and playback support."},
+            {"url": "quodlibet/mutagen"},
+            {"url": "tyiannak/pyAudioAnalysis"},
+            {"url": "jiaaro/pydub"},
+            {"url": "echonest/pyechonest"},
+            {"url": "http://scikits.appspot.com/talkbox", "name": "talkbox", "description": "A Python library for speech/signal processing."},
+            {"url": "Parisson/TimeSide"},
+            {"url": "devsnd/tinytag"}
+          ]
+        },
+        {
+          "title" : "Authentication",
+          "description": "Libraries for implementing authentications schemes.",
+          "categories": [
+            {
+              "title": "OAuth",
+              "items": [
+                {"url": "authomatic/authomatic"},
+                {"url": "pennersr/django-allauth"},
+                {"url": "jazzband/django-oauth-toolkit"},
+                {"url": "lepture/flask-oauthlib"},
+                {"url": "idan/oauthlib"},
+                {"url": "joestump/python-oauth2"},
+                {"url": "omab/python-social-auth"},
+                {"url": "litl/rauth"},
+                {"url": "demianbrecht/sanction"}
+              ]
+            },
+            {
+              "title": "Others",
+              "items": [
+                {"url": "demonware/jose"},
+                {"url": "jpadilla/pyjwt"},
+                {"url": "brianloveswords/python-jws"},
+                {"url": "davedoesdev/python-jwt"}
+              ]
+            }
+          ]
+        },
+        {
+          "title" : "Build Tools",
+          "description": "Compile software from source code.",
+          "items": [
+            {"url": "http://www.yoctoproject.org/docs/1.6/bitbake-user-manual/bitbake-user-manual.html", "name": "BitBake", "description": "A make-like build tool for embedded Linux."},
+            {"url": "http://www.buildout.org/en/latest/", "name": "buildout", "description": "A build system for creating, assembling and deploying applications from multiple parts."},
+            {"url": "platformio/platformio-core"},
+            {"url": "pybuilder/pybuilder"},
+            {"url": "http://www.scons.org/", "name": "SCons", "description": "A software construction tool."}
+          ]
+        },
+        {
+          "title" : "Built-in Classes Enhancement",
+          "description": "Libraries for enhancing Python built-in classes.",
+          "items": [
+            {"url": "python-attrs/attrs"},
+            {"url": "jab/bidict"},
+            {"url": "cdgriffith/Box"},
+            {"url": "carlosescri/DottedDict"}
+          ]
+        },
+        {
+          "title" : "CMS",
+          "description": "Content Management Systems.",
+          "items": [
+            {"url": "https://www.django-cms.org/en/", "name": "django-cms", "description": "An Open source enterprise CMS based on the Django."},
+            {"url": "http://djedi-cms.org/", "name": "djedi-cms", "description": "A lightweight but yet powerful Django CMS with plugins, inline editing and performance in mind."},
+            {"url": "http://www.feincms.org/", "name": "FeinCMS", "description": "One of the most advanced Content Management Systems built on Django."},
+            {"url": "http://kotti.pylonsproject.org/", "name": "Kotti", "description": "A high-level, Pythonic web application framework built on Pyramid."},
+            {"url": "http://mezzanine.jupo.org/", "name": "Mezzanine", "description": "A powerful, consistent, and flexible content management platform."},
+            {"url": "http://opps.github.io/opps/", "name": "Opps", "description": "A Django-based CMS for magazines, newspapers websites and portals with high-traffic."},
+            {"url": "https://plone.org/", "name": "Plone", "description": "A CMS built on top of the open source application server Zope."},
+            {"url": "http://quokkaproject.org/", "name": "Quokka", "description": "Flexible, extensible, small CMS powered by Flask and MongoDB."},
+            {"url": "https://wagtail.io/", "name": "Wagtail", "description": "A Django content management system."},
+            {"url": "https://wid.gy/", "name": "Widgy", "description": "Last CMS framework, based on Django."}
+          ]
+        },
+        {
+          "title" : "Caching",
+          "description": "Libraries for caching data.",
+          "items": [
+            {"url": "bbangert/beaker"},
+            {"url": "http://www.grantjenks.com/docs/diskcache/", "name": "DiskCache", "description": "SQLite and file backed cache backend with faster lookups than memcached and redis."},
+            {"url": "django-cache-machine/django-cache-machine"},
+            {"url": "Suor/django-cacheops"},
+            {"url": "5monkeys/django-viewlet"},
+            {"url": "http://dogpilecache.readthedocs.io/en/latest/", "name": "dogpile.cache", "description": "dogpile.cache is next generation replacement for Beaker made by same authors."},
+            {"url": "https://pypi.python.org/pypi/HermesCache", "name": "HermesCache", "description": "Python caching library with tag-based invalidation and dogpile effect prevention."},
+            {"url": "jmoiron/johnny-cache"},
+            {"url": "lericson/pylibmc"}
+          ]
+        },
+        {
+          "title" : "ChatOps Tools",
+          "description": "Libraries for chatbot development.",
+          "items": [
+            {"url": "http://errbot.io/en/latest/", "name": "Errbot", "description": "The easiest and most popular chatbot to implement ChatOps."}
+          ]
+        },
+        {
+          "title" : "Cluster Computing",
+          "description": "Frameworks and libraries for Cluster Computing.",
+          "items": [
+            {"url": "https://pypi.python.org/pypi/pyspark/", "name": "PySpark", "description": "[Apache Spark](https://spark.apache.org/) Python API."},
+            {"url": "https://dask.pydata.org/en/latest/", "name": "dask", "description": "A flexible parallel computing library for analytic computing."},
+            {"url": "robinhood/faust"},
+            {"url": "spotify/luigi"},
+            {"url": "Yelp/mrjob"},
+            {"url": "Parsely/streamparse"}
+          ]
+        },
+        {
+          "title" : "Code Analysis",
+          "description": "Tools of static analysis, linters and code quality checkers. See: [awesome-static-analysis](https://github.com/mre/awesome-static-analysis).",
+          "categories": [
+            {
+              "title": "Code Analysis",
+              "items": [
+                {"url": "https://pypi.python.org/pypi/flake8", "name": "flake8", "description": "A wrapper around pycodestyle, pyflakes and McCabe."},
+                {"url": "http://coala.io/", "name": "coala", "description": "Language independent and easily extendable code analysis application."},
+                {"url": "scottrogowski/code2flow"},
+                {"url": "landscapeio/prospector"},
+                {"url": "gak/pycallgraph"},
+                {"url": "klen/pylama"},
+                {"url": "https://www.pylint.org/", "name": "pylint", "description": "A fully customizable source code analyzer."}
+              ]
+            },
+            {
+              "title": "Static Type Checkers",
+              "items": [
+                {"url": "http://mypy-lang.org/", "name": "mypy", "description": "Check variable types during compile time."},
+                {"url": "facebook/pyre-check"}
+              ]
+            },
+            {
+              "title": "Static Type Annotations Generators",
+              "items": [
+                {"url": "Instagram/MonkeyType"}
+              ]
+            }
+          ]
+        },
+        {
+          "title" : "Command-line Tools",
+          "description": "Libraries for building command-line application.",
+          "categories": [
+            {
+              "title": "Command-line Application Development",
+              "items": [
+                {"url": "http://builtoncement.com/", "name": "cement", "description": "CLI Application Framework for Python."},
+                {"url": "http://click.pocoo.org/dev/", "name": "click", "description": "A package for creating beautiful command line interfaces in a composable way."},
+                {"url": "https://docs.openstack.org/developer/cliff/", "name": "cliff", "description": "A framework for creating command-line programs with multi-level commands."},
+                {"url": "kennethreitz/clint"},
+                {"url": "http://docopt.org/", "name": "docopt", "description": "Pythonic command line arguments parser."},
+                {"url": "chriskiehl/Gooey"},
+                {"url": "google/python-fire"},
+                {"url": "jonathanslenders/python-prompt-toolkit"}
+              ]
+            },
+            {
+              "title": "Terminal Rendering",
+              "items": [
+                {"url": "peterbrittain/asciimatics"},
+                {"url": "glamp/bashplotlib"},
+                {"url": "https://pypi.python.org/pypi/colorama", "name": "colorama", "description": "Cross-platform colored terminal text."}
+              ]
+            },
+            {
+              "title": "Productivity Tools",
+              "items": [
+                {"url": "aws/aws-cli"},
+                {"url": "audreyr/cookiecutter"},
+                {"url": "sloria/doitlive"},
+                {"url": "gleitz/howdoi"},
+                {"url": "jakubroztocil/httpie"},
+                {"url": "cloudnativelabs/kube-shell"},
+                {"url": "dbcli/mycli"},
+                {"url": "facebook/PathPicker"},
+                {"url": "mooz/percol"},
+                {"url": "dbcli/pgcli"},
+                {"url": "donnemartin/saws"},
+                {"url": "nvbn/thefuck"},
+                {"url": "tmux/tmux"},
+                {"url": "timofurrer/try"}
+              ]
+            }
+          ]
+        },
+        {
+          "title" : "Compatibility",
+          "description": "Libraries for migrating from Python 2 to 3.",
+          "items": [
+            {"url": "http://python-future.org/index.html", "name": "Python-Future", "description": "The missing compatibility layer between Python 2 and Python 3."},
+            {"url": "mitsuhiko/python-modernize"},
+            {"url": "https://pypi.python.org/pypi/six", "name": "Six", "description": "Python 2 and 3 compatibility utilities."}
+          ]
+        },
+        {
+          "title" : "Computer Vision",
+          "description": "Libraries for computer vision.",
+          "items": [
+            {"url": "http://opencv.org/", "name": "OpenCV", "description": "Open Source Computer Vision Library."},
+            {"url": "openpaperwork/pyocr"},
+            {"url": "tesseract-ocr"},
+            {"url": "http://simplecv.org/", "name": "SimpleCV", "description": "An open source framework for building computer vision applications."}
+          ]
+        },
+        {
+          "title" : "Concurrency and Parallelism",
+          "description": "Libraries for concurrent and parallel execution.",
+          "items": [
+            {"url": "https://docs.python.org/3/library/multiprocessing.html", "name": "concurrent.futures", "description": "(Python standard library) Process-based [threading](https://docs.python.org/3/library/threading.html) interface."},
+            {"url": "https://docs.python.org/3/library/multiprocessing.html", "name": "multiprocessing", "description": "(Python standard library) A high-level interface for asynchronously executing callables."},
+            {"url": "http://eventlet.net/", "name": "eventlet", "description": "Asynchronous framework with WSGI support."},
+            {"url": "python-greenlet/greenlet"},
+            {"url": "soravux/scoop"},
+            {"url": "madisonmay/Tomorrow"},
+            {"url": "MagicStack/uvloop"}
+          ]
+        },
+        {
+          "title" : "Configuration",
+          "description": "Libraries for storing and parsing configuration options.",
+          "items": [
+            {"url": "https://www.red-dove.com/config-doc/", "name": "config", "description": "Hierarchical config from the author of [logging](https://docs.python.org/3/library/logging.html)."},
+            {"url": "DiffSK/configobj"},
+            {"url": "https://docs.python.org/3/library/configparser.html", "name": "ConfigParser", "description": "(Python standard library) INI file parser."},
+            {"url": "http://profig.readthedocs.org/en/default/", "name": "profig", "description": "Config from multiple formats with value conversion."},
+            {"url": "henriquebastos/python-decouple"}
+          ]
+        },
+        {
+          "title" : "Cryptography",
+          "items": [
+            {"url": "https://cryptography.io/en/latest/", "name": "cryptography", "description": "A package designed to expose cryptographic primitives and recipes to Python developers."},
+            {"url": "http://www.paramiko.org/", "name": "Paramiko", "description": "A Python (2.6+, 3.3+) implementation of the SSHv2 protocol, providing both client and server functionality."},
+            {"url": "https://passlib.readthedocs.io/en/stable/", "name": "Passlib", "description": "Secure password storage/hashing library, very high level."},
+            {"url": "pyca/pynacl"}
+          ]
+        },
+        {
+          "title" : "Data Analysis",
+          "description": "Libraries for data analyzing.",
+          "items": [
+            {"url": "blaze/blaze"},
+            {"url": "mining/mining"},
+            {"url": "https://orange.biolab.si/", "name": "Orange", "description": "Data mining, data visualization, analysis and machine learning through visual programming or scripts."},
+            {"url": "http://pandas.pydata.org/", "name": "Pandas", "description": "A library providing high-performance, easy-to-use data structures and data analysis tools."},
+            {"url": "ironmussa/Optimus"}
+          ]
+        },
+        {
+          "title" : "Data Validation",
+          "description": "Libraries for validating data. Used for forms in many cases.",
+          "items": [
+            {"url": "pyeve/cerberus"},
+            {"url": "https://docs.pylonsproject.org/projects/colander/en/latest/", "name": "colander", "description": "Validating and deserializing data obtained via XML, JSON, an HTML form post."},
+            {"url": "https://plot.ly/products/dash/", "name": "Dash", "description": "Built on top of Flask, React and Plotly aimed at analytical web applications."},
+            {"url": "Acrotrend/awesome-dash"},
+            {"url": "Julian/jsonschema"},
+            {"url": "keleshev/schema"},
+            {"url": "schematics/schematics"},
+            {"url": "podio/valideer"},
+            {"url": "alecthomas/voluptuous"}
+          ]
+        },
+        {
+          "title" : "Data Visualization",
+          "description": "Libraries for visualizing data. See: [awesome-javascript](https://github.com/sorrycc/awesome-javascript#data-visualization).",
+          "items": [
+            {"url": "altair-viz/altair"},
+            {"url": "bokeh/bokeh"},
+            {"url": "bloomberg/bqplot"},
+            {"url": "yhat/ggpy"},
+            {"url": "http://matplotlib.org/", "name": "Matplotlib", "description": "A Python 2D plotting library."},
+            {"url": "http://www.pygal.org/en/latest/", "name": "Pygal", "description": "A Python SVG Charts Creator."},
+            {"url": "https://pypi.python.org/pypi/pygraphviz", "name": "PyGraphviz", "description": "Python interface to [Graphviz](http://www.graphviz.org/)."},
+            {"url": "http://www.pyqtgraph.org/", "name": "PyQtGraph", "description": "Interactive and realtime 2D/3D/Image plotting and science/engineering widgets."},
+            {"url": "mwaskom/seaborn"},
+            {"url": "vispy/vispy"}
+          ]
+        },
+        {
+          "title" : "Database",
+          "description": "Databases implemented in Python.",
+          "items": [
+            {"url": "https://pythonhosted.org/pickleDB/", "name": "pickleDB", "description": "A simple and lightweight key-value store for Python."},
+            {"url": "msiemens/tinydb"},
+            {"url": "http://www.zodb.org/en/latest/", "name": "ZODB", "description": "A native object database for Python. A key-value and object graph database."}
+          ]
+        },
+        {
+          "title" : "Database Drivers",
+          "description": "Libraries for connecting and operating databases.",
+          "categories": [
+            {
+              "title": "MySQL - [awesome-mysql](http://shlomi-noach.github.io/awesome-mysql/)",
+              "items": [
+                {"url": "PyMySQL/mysqlclient-python"},
+                {"url": "https://pythonhosted.org/oursql/", "name": "oursql", "description": "A better MySQL connector with support for native prepared statements and BLOBs."},
+                {"url": "PyMySQL/PyMySQL"}
+              ]
+            },
+            {
+              "title": "PostgreSQL - [awesome-postgres](https://github.com/dhamaniasad/awesome-postgres)",
+              "items": [
+                {"url": "http://initd.org/psycopg/", "name": "psycopg2", "description": "The most popular PostgreSQL adapter for Python."},
+                {"url": "gmr/queries"},
+                {"url": "wulczer/txpostgres"}
+              ]
+            },
+            {
+              "title": "Other Relational Databases",
+              "items": [
+                {"url": "http://rogerbinns.github.io/apsw/", "name": "apsw", "description": "Another Python SQLite wrapper."},
+                {"url": "pudo/dataset"},
+                {"url": "http://www.pymssql.org/en/latest/", "name": "pymssql", "description": "A simple database interface to Microsoft SQL Server."}
+              ]
+            },
+            {
+              "title": "NoSQL Databases",
+              "items": [
+                {"url": "datastax/python-driver"},
+                {"url": "wbolster/happybase"},
+                {"url": "dpkp/kafka-python"},
+                {"url": "http://py2neo.org/2.0/", "name": "py2neo", "description": "Python wrapper client for Neo4j's restful interface."},
+                {"url": "https://docs.mongodb.com/ecosystem/drivers/python/", "name": "PyMongo", "description": "The official Python client for MongoDB."},
+                {"url": "andymccurdy/redis-py"}
+              ]
+            },
+            {
+              "title": "Asynchronous Clients",
+              "items": [
+                {"url": "mongodb/motor"},
+                {"url": "driftx/Telephus"},
+                {"url": "deldotdr/txRedis"}
+              ]
+            }
+          ]
+        },
+        {
+          "title" : "Date and Time",
+          "description": "Libraries for working with dates and times.",
+          "items": [
+            {"url": "KoffeinFlummi/Chronyk"},
+            {"url": "dateutil/dateutil"},
+            {"url": "myusuf3/delorean"},
+            {"url": "zachwill/moment"},
+            {"url": "sdispater/pendulum"},
+            {"url": "shinux/PyTime"},
+            {"url": "https://launchpad.net/pytz", "name": "pytz", "description": "World timezone definitions, modern and historical. Brings the [tz database](https://en.wikipedia.org/wiki/Tz_database) into Python."},
+            {"url": "dirn/When.py"},
+            {"url": "kennethreitz/maya"}
+          ]
+        },
+        {
+          "title" : "Debugging Tools",
+          "description": "Libraries for debugging code.",
+          "categories": [
+            {
+              "title": "pdb-like Debugger",
+              "items": [
+                {"url": "https://pypi.python.org/pypi/ipdb", "name": "ipdb", "description": "IPython-enabled [pdb](https://docs.python.org/3/library/pdb.html)."},
+                {"url": "https://pypi.python.org/pypi/pdbpp/", "name": "pdb++", "description": "Another drop-in replacement for pdb."},
+                {"url": "https://pypi.python.org/pypi/pudb", "name": "pudb", "description": "A full-screen, console-based Python debugger."},
+                {"url": "ionelmc/python-remote-pdb"},
+                {"url": "Kozea/wdb"}
+              ]
+            },
+            {
+              "title": "Profiler",
+              "items": [
+                {"url": "rkern/line_profiler"},
+                {"url": "fabianp/memory_profiler"},
+                {"url": "what-studio/profiling"},
+                {"url": "benfred/py-spy"},
+                {"url": "uber/pyflame"},
+                {"url": "nvdv/vprof"}
+              ]
+            },
+            {
+              "title": "Others",
+              "items": [
+                {"url": "gruns/icecream"},
+                {"url": "jazzband/django-debug-toolbar"},
+                {"url": "dcramer/django-devserver"},
+                {"url": "mgood/flask-debugtoolbar"},
+                {"url": "ionelmc/python-hunter"},
+                {"url": "khamidou/lptrace"},
+                {"url": "ionelmc/python-manhole"},
+                {"url": "eliben/pyelftools"},
+                {"url": "google/pyringe"}
+              ]
+            }
+          ]
+        },
+        {
+          "title" : "Deep Learning",
+          "description": "Frameworks for Neural Networks and Deep Learning. See: [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning).",
+          "items": [
+            {"url": "BVLC/caffe"},
+            {"url": "fchollet/keras"},
+            {"url": "dmlc/mxnet"},
+            {"url": "http://neupy.com/pages/home.html", "name": "Neupy", "description": "Running and testing different Artificial Neural Networks algorithms."},
+            {"url": "http://pytorch.org/", "name": "Pytorch", "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration."},
+            {"url": "SerpentAI/SerpentAI"},
+            {"url": "tensorflow/tensorflow"},
+            {"url": "Theano/Theano"}
+          ]
+        },
+        {
+          "title" : "DevOps Tools",
+          "description": "Software and libraries for DevOps.",
+          "items": [
+            {"url": "ansible/ansible"},
+            {"url": "http://cloudinit.readthedocs.io/en/latest/", "name": "Cloud-Init", "description": "A multi-distribution package that handles early initialization of a cloud instance."},
+            {"url": "sebastien/cuisine"},
+            {"url": "https://docs.docker.com/compose/", "name": "Docker Compose", "description": "Fast, isolated development environments using [Docker](https://www.docker.com/)."},
+            {"url": "http://www.fabfile.org/", "name": "Fabric", "description": "A simple, Pythonic tool for remote execution and deployment."},
+            {"url": "fabtools/fabtools"},
+            {"url": "ddollar/foreman"},
+            {"url": "https://www.openstack.org/", "name": "OpenStack", "description": "Open source software for building private and public clouds."},
+            {"url": "pexpect/pexpect"},
+            {"url": "giampaolo/psutil"},
+            {"url": "saltstack/salt"},
+            {"url": "Supervisor/supervisor"}
+          ]
+        },
+        {
+          "title" : "Distribution",
+          "description": "Libraries to create packaged executables for release distribution.",
+          "items": [
+            {"url": "spotify/dh-virtualenv"},
+            {"url": "http://nuitka.net/", "name": "Nuitka", "description": "Compile scripts, modules, packages to an executable or extension module."},
+            {"url": "http://pythonhosted.org/py2app/", "name": "py2app", "description": "Freezes Python scripts (Mac OS X)."},
+            {"url": "http://www.py2exe.org/", "name": "py2exe", "description": "Freezes Python scripts (Windows)."},
+            {"url": "pyinstaller/pyinstaller"},
+            {"url": "http://pynsist.readthedocs.io/en/latest/", "name": "pynsist", "description": "A tool to build Windows installers, installers bundle Python itself."}
+          ]
+        },
+        {
+          "title" : "Documentation",
+          "description": "Libraries for generating project documentation.",
+          "items": [
+            {"url": "http://www.sphinx-doc.org/en/latest/", "name": "Sphinx", "description": "Python Documentation generator."},
+            {"url": "yoloseem/awesome-sphinxdoc"},
+            {"url": "http://www.mkdocs.org/", "name": "MkDocs", "description": "Markdown friendly documentation generator."},
+            {"url": "BurntSushi/pdoc"},
+            {"url": "pycco-docs/pycco"}
+          ]
+        },
+        {
+          "title" : "Downloader",
+          "description": "Libraries for downloading.",
+          "items": [
+            {"url": "s3tools/s3cmd"},
+            {"url": "bloomreach/s4cmd"},
+            {"url": "http://you-get.org/", "name": "you-get", "description": "A YouTube/Youku/Niconico video downloader written in Python 3."},
+            {"url": "http://rg3.github.io/youtube-dl/", "name": "youtube-dl", "description": "A small command-line program to download videos from YouTube."}
+          ]
+        },
+        {
+          "title" : "E-commerce",
+          "description": "Frameworks and libraries for e-commerce and payments.",
+          "items": [
+            {"url": "lxneng/alipay"},
+            {"url": "stephenmcd/cartridge"},
+            {"url": "http://oscarcommerce.com/", "name": "django-oscar", "description": "An open-source e-commerce framework for Django."},
+            {"url": "awesto/django-shop"},
+            {"url": "agiliq/merchant"},
+            {"url": "carlospalol/money"},
+            {"url": "Alir3z4/python-currencies"},
+            {"url": "MicroPyramid/forex-python"},
+            {"url": "http://getsaleor.com/", "name": "saleor", "description": "An e-commerce storefront for Django."},
+            {"url": "https://www.shuup.com/en/", "name": "shoop", "description": "An open source E-Commerce platform based on Django."}
+          ]
+        },
+        {
+          "title" : "Editor Plugins and IDEs",
+          "categories": [
+            {
+              "title": "Emacs",
+              "items": [
+                {"url": "jorgenschaefer/elpy"}
+              ]
+            },
+            {
+              "title": "Sublime Text",
+              "items": [
+                {"url": "DamnWidget/anaconda"},
+                {"url": "srusskih/SublimeJEDI"}
+              ]
+            },
+            {
+              "title": "Vim",
+              "items": [
+                {"url": "davidhalter/jedi-vim"},
+                {"url": "python-mode/python-mode"},
+                {"url": "davidhalter/jedi"}
+              ]
+            },
+            {
+              "title": "Visual Studio",
+              "items": [
+                {"url": "Microsoft/PTVS"}
+              ]
+            },
+            {
+              "title": "Visual Studio Code",
+              "items": [
+                {"url": "DonJayamanne/pythonVSCode"},
+                {"url": "MagicStack/MagicPython"}
+              ]
+            },
+            {
+              "title": "IDE",
+              "items": [
+                {"url": "http://www.liclipse.com/", "name": "LiClipse", "description": "Free polyglot IDE based on Eclipse. Uses PyDev for Python support."},
+                {"url": "https://www.jetbrains.com/pycharm/", "name": "PyCharm", "description": "Commercial Python IDE by JetBrains. Has free community edition available."},
+                {"url": "spyder-ide/spyder"}
+              ]
+            }
+          ]
+        },
+        {
+          "title" : "Email",
+          "description": "Libraries for sending and parsing email.",
+          "items": [
+            {"url": "http://tomekwojcik.github.io/envelopes/", "name": "envelopes", "description": "Mailing for human beings."},
+            {"url": "mailgun/flanker"},
+            {"url": "martinrusev/imbox"},
+            {"url": "kennethreitz/inbox.py"},
+            {"url": "zedshaw/lamson"},
+            {"url": "marrow/mailer"},
+            {"url": "modoboa/modoboa"},
+            {"url": "nylas/sync-engine"},
+            {"url": "kootenpv/yagmail"}
+          ]
+        },
+        {
+          "title" : "Environment Management",
+          "description": "Libraries for Python version and environment management.",
+          "items": [
+            {"url": "kennethreitz/pipenv"},
+            {"url": "qw3rtman/p"},
+            {"url": "pyenv/pyenv"},
+            {"url": "https://docs.python.org/3/library/venv.html", "name": "venv", "description": "(Python standard library in Python 3.3+) Creating lightweight virtual environments."},
+            {"url": "https://pypi.python.org/pypi/virtualenv", "name": "virtualenv", "description": "A tool to create isolated Python environments."},
+            {"url": "https://pypi.python.org/pypi/virtualenvwrapper", "name": "virtualenvwrapper", "description": "A set of extensions to virtualenv."}
+          ]
+        },
+        {
+          "title" : "Files",
+          "description": "Libraries for file manipulation and MIME type detection.",
+          "items": [
+            {"url": "https://docs.python.org/3/library/mimetypes.html", "name": "mimetypes", "description": "(Python standard library) Map filenames to MIME types."},
+            {"url": "jaraco/path.py"},
+            {"url": "https://docs.python.org/3/library/pathlib.html", "name": "pathlib", "description": "(Python standard library) An cross-platform, object-oriented path library."},
+            {"url": "pyfilesystem/pyfilesystem2"},
+            {"url": "ahupp/python-magic"},
+            {"url": "mikeorr/Unipath"},
+            {"url": "gorakhargosh/watchdog"}
+          ]
+        },
+        {
+          "title" : "Foreign Function Interface",
+          "description": "Libraries for providing foreign function interface.",
+          "items": [
+            {"url": "https://pypi.python.org/pypi/cffi", "name": "cffi", "description": "Foreign Function Interface for Python calling C code."},
+            {"url": "https://docs.python.org/3/library/ctypes.html", "name": "ctypes", "description": "(Python standard library) Foreign Function Interface for Python calling C code."},
+            {"url": "https://mathema.tician.de/software/pycuda/", "name": "PyCUDA", "description": "A Python wrapper for Nvidia's CUDA API."},
+            {"url": "http://www.swig.org/Doc1.3/Python.html", "name": "SWIG", "description": "Simplified Wrapper and Interface Generator."}
+          ]
+        },
+        {
+          "title" : "Forms",
+          "description": "Libraries for working with forms.",
+          "items": [
+            {"url": "Pylons/deform"},
+            {"url": "dyve/django-bootstrap3"},
+            {"url": "django-crispy-forms/django-crispy-forms"},
+            {"url": "WiserTogether/django-remote-forms"},
+            {"url": "wtforms/wtforms"}
+          ]
+        },
+        {
+          "title" : "Functional Programming",
+          "description": "Functional Programming with Python.",
+          "items": [
+            {"url": "http://coconut-lang.org/", "name": "Coconut", "description": "Coconut is a variant of Python built for simple, elegant, Pythonic functional programming."},
+            {"url": "pytoolz/cytoolz"},
+            {"url": "kachayev/fn.py"},
+            {"url": "Suor/funcy"},
+            {"url": "pytoolz/toolz"}
+          ]
+        },
+        {
+          "title" : "GUI",
+          "description": "Libraries for working with graphical user interface applications.",
+          "items": [
+            {"url": "https://docs.python.org/3/library/curses.html", "name": "curses", "description": "Built-in wrapper for [ncurses](http://www.gnu.org/software/ncurses/) used to create terminal GUI applications."},
+            {"url": "ChrisKnott/Eel"},
+            {"url": "nucleic/enaml"},
+            {"url": "zoofIO/flexx"},
+            {"url": "https://kivy.org/", "name": "kivy", "description": "A library for creating NUI applications, running on Windows, Linux, Mac OS X, Android and iOS."},
+            {"url": "https://bitbucket.org/pyglet/pyglet/wiki/Home", "name": "pyglet", "description": "A cross-platform windowing and multimedia library for Python."},
+            {"url": "https://wiki.gnome.org/Projects/PyGObject", "name": "PyGObject", "description": "Python Bindings for GLib/GObject/GIO/GTK+ (GTK+3)."},
+            {"url": "https://riverbankcomputing.com/software/pyqt/intro", "name": "PyQt", "description": "Python bindings for the [Qt](https://www.qt.io/) cross-platform application and UI framework, with support for both Qt v4 and Qt v5 frameworks."},
+            {"url": "https://wiki.qt.io/PySide", "name": "PySide", "description": "Python bindings for the [Qt](http://www.qt.io/) cross-platform application and UI framework, supporting the Qt v4 framework."},
+            {"url": "MikeTheWatchGuy/PySimpleGUI"},
+            {"url": "r0x0r/pywebview"},
+            {"url": "https://wiki.python.org/moin/TkInter", "name": "Tkinter", "description": "Tkinter is Python's de-facto standard GUI package."},
+            {"url": "pybee/toga"},
+            {"url": "http://urwid.org/", "name": "urwid", "description": "A library for creating terminal GUI applications with strong support for widgets, events, rich colors, etc."},
+            {"url": "https://wxpython.org/", "name": "wxPython", "description": "A blending of the wxWidgets C++ class library with the Python."}
+          ]
+        },
+        {
+          "title" : "Game Development",
+          "description": "Awesome game development libraries.",
+          "items": [
+            {"url": "http://cocos2d.org/", "name": "Cocos2d", "description": "cocos2d is a framework for building 2D games, demos, and other graphical/interactive applications. It is based on pyglet."},
+            {"url": "https://www.panda3d.org/", "name": "Panda3D", "description": "3D game engine developed by Disney and maintained by Carnegie Mellon's Entertainment Technology Center. Written in C++, completely wrapped in Python."},
+            {"url": "http://www.pygame.org/news.html", "name": "Pygame", "description": "Pygame is a set of Python modules designed for writing games."},
+            {"url": "http://www.ogre3d.org/tikiwiki/PyOgre", "name": "PyOgre", "description": "Python bindings for the Ogre 3D render engine, can be used for games, simulations, anything 3D."},
+            {"url": "http://pyopengl.sourceforge.net/", "name": "PyOpenGL", "description": "Python ctypes bindings for OpenGL and it's related APIs."},
+            {"url": "http://pysdl2.readthedocs.io/en/rel_0_9_5/", "name": "PySDL2", "description": "A ctypes based wrapper for the SDL2 library."},
+            {"url": "https://www.renpy.org/", "name": "RenPy", "description": "A Visual Novel engine."}
+          ]
+        },
+        {
+          "title" : "Geolocation",
+          "description": "Libraries for geocoding addresses and working with latitudes and longitudes.",
+          "items": [
+            {"url": "SmileyChris/django-countries"},
+            {"url": "https://docs.djangoproject.com/en/dev/ref/contrib/gis/", "name": "GeoDjango", "description": "A world-class geographic web framework."},
+            {"url": "maxmind/geoip-api-python"},
+            {"url": "frewsxcv/python-geojson"},
+            {"url": "geopy/geopy"},
+            {"url": "appliedsec/pygeoip"}
+          ]
+        },
+        {
+          "title" : "HTML Manipulation",
+          "description": "Libraries for working with HTML and XML.",
+          "items": [
+            {"url": "https://www.crummy.com/software/BeautifulSoup/bs4/doc/", "name": "BeautifulSoup", "description": "Providing Pythonic idioms for iterating, searching, and modifying HTML or XML."},
+            {"url": "mozilla/bleach"},
+            {"url": "https://pypi.python.org/pypi/cssutils/", "name": "cssutils", "description": "A CSS library for Python."},
+            {"url": "html5lib/html5lib-python"},
+            {"url": "http://lxml.de/", "name": "lxml", "description": "A very fast, easy-to-use and versatile library for handling HTML and XML."},
+            {"url": "pallets/markupsafe"},
+            {"url": "gawel/pyquery"},
+            {"url": "stchris/untangle"},
+            {"url": "http://weasyprint.org", "name": "WeasyPrint", "description": "A visual rendering engine for HTML and CSS that can export to PDF."},
+            {"url": "https://xmldataset.readthedocs.io/en/latest/", "name": "xmldataset", "description": "Simple XML Parsing."},
+            {"url": "martinblech/xmltodict"}
+          ]
+        },
+        {
+          "title" : "HTTP",
+          "description": "Libraries for working with HTTP.",
+          "items": [
+            {"url": "kennethreitz/grequests"},
+            {"url": "httplib2/httplib2"},
+            {"url": "http://docs.python-requests.org/en/latest/", "name": "requests", "description": "HTTP Requests for Humans™."},
+            {"url": "twisted/treq"},
+            {"url": "shazow/urllib3"}
+          ]
+        },
+        {
+          "title" : "Hardware",
+          "description": "Libraries for programming with hardware.",
+          "items": [
+            {"url": "http://inotool.org/", "name": "ino", "description": "Command line toolkit for working with [Arduino](https://www.arduino.cc/)."},
+            {"url": "boppreh/keyboard"},
+            {"url": "boppreh/mouse"},
+            {"url": "http://www.pingo.io/", "name": "Pingo", "description": "Pingo provides a uniform API to program devices like the Raspberry Pi, pcDuino, Intel Galileo, etc."},
+            {"url": "SavinaRoja/PyUserInput"},
+            {"url": "secdev/scapy"},
+            {"url": "rockymeza/wifi"}
+          ]
+        },
+        {
+          "title" : "Image Processing",
+          "description": "Libraries for manipulating images.",
+          "items": [
+            {"url": "rossgoodwin/hmap"},
+            {"url": "https://sourceforge.net/projects/imgseek/", "name": "imgSeek", "description": "A project for searching a collection of images using visual similarity."},
+            {"url": "hhatto/nude.py"},
+            {"url": "daboth/pagan"},
+            {"url": "python-pillow/Pillow"},
+            {"url": "https://pythonhosted.org/pyBarcode/", "name": "pyBarcode", "description": "Create barcodes in Python without needing PIL."},
+            {"url": "ajkumar25/pygram"},
+            {"url": "lincolnloop/python-qrcode"},
+            {"url": "fogleman/Quads"},
+            {"url": "http://scikit-image.org/", "name": "scikit-image", "description": "A Python library for (scientific) image processing."},
+            {"url": "thumbor/thumbor"},
+            {"url": "dahlia/wand"}
+          ]
+        },
+        {
+          "title" : "Implementations",
+          "description": "Implementations of Python.",
+          "items": [
+            {"url": "metawilm/cl-python"},
+            {"url": "python/cpython"},
+            {"url": "http://cython.org/", "name": "Cython", "description": "Optimizing Static Compiler for Python. Uses type mixins to compile Python into C or C++ modules resulting in large performance gains"},
+            {"url": "google/grumpy"},
+            {"url": "IronLanguages/ironpython3"},
+            {"url": "https://hg.python.org/jython", "name": "Jython", "description": "Implementation of Python programming language written in Java for the Java virtual machine (JVM)."},
+            {"url": "micropython/micropython"},
+            {"url": "http://numba.pydata.org/", "name": "Numba", "description": "Python JIT compiler to LLVM aimed at scientific Python."},
+            {"url": "Maratyszcza/PeachPy"},
+            {"url": "Microsoft/Pyjion"},
+            {"url": "https://bitbucket.org/pypy/pypy", "name": "PyPy", "description": "Implementation of the Python programming language written in RPython and translated into C. PyPy focuses on speed, efficiency and compatibility with the original CPython interpreter. The interpreter uses black magic to make Python very fast without having to add in additional type information."},
+            {"url": "ebranca/owasp-pysec"},
+            {"url": "dropbox/pyston"},
+            {"url": "stackless-dev/stackless"}
+          ]
+        },
+        {
+          "title" : "Interactive Interpreter",
+          "description": "Interactive Python interpreters (REPL).",
+          "items": [
+            {"url": "bpython/bpython"},
+            {"url": "https://jupyter.org", "name": "Jupyter Notebook (IPython)", "description": "A rich toolkit to help you make the most out of using Python interactively."},
+            {"url": "markusschanta/awesome-jupyter"},
+            {"url": "jonathanslenders/python-prompt-toolkit"}
+          ]
+        },
+        {
+          "title" : "Internationalization",
+          "description": "Libraries for working with i18n.",
+          "items": [
+            {"url": "http://babel.pocoo.org/en/latest/", "name": "Babel", "description": "An internationalization library for Python."},
+            {"url": "ovalhub/pyicu"}
+          ]
+        },
+        {
+          "title" : "Job Scheduler",
+          "description": "Libraries for scheduling jobs.",
+          "items": [
+            {"url": "http://apscheduler.readthedocs.io/en/latest/", "name": "APScheduler", "description": "A light but powerful in-process task scheduler that lets you schedule functions."},
+            {"url": "thauber/django-schedule"},
+            {"url": "http://pydoit.org/", "name": "doit", "description": "A task runner and build tool."},
+            {"url": "gunnery/gunnery"},
+            {"url": "http://pythonhosted.org/joblib/index.html", "name": "Joblib", "description": "A set of tools to provide lightweight pipelining in Python."},
+            {"url": "fengsp/plan"},
+            {"url": "dbader/schedule"},
+            {"url": "knipknap/SpiffWorkflow"},
+            {"url": "https://docs.openstack.org/developer/taskflow/", "name": "TaskFlow", "description": "A Python library that helps to make task execution easy, consistent and reliable."}
+          ]
+        },
+        {
+          "title" : "Logging",
+          "description": "Libraries for generating and working with logs.",
+          "items": [
+            {"url": "ScatterHQ/eliot"},
+            {"url": "http://logbook.readthedocs.io/en/stable/", "name": "logbook", "description": "Logging replacement for Python."},
+            {"url": "https://docs.python.org/3/library/logging.html", "name": "logging", "description": "(Python standard library) Logging facility for Python."},
+            {"url": "getsentry/raven-python"}
+          ]
+        },
+        {
+          "title" : "Machine Learning",
+          "description": "Libraries for Machine Learning. See: [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning#python).",
+          "items": [
+            {"url": "h2oai/h2o-3"},
+            {"url": "benhamner/Metrics"},
+            {"url": "numenta/nupic"},
+            {"url": "http://scikit-learn.org/", "name": "scikit-learn", "description": "The most popular Python library for Machine Learning."},
+            {"url": "http://spark.apache.org/docs/latest/ml-guide.html", "name": "Spark ML", "description": "[Apache Spark](http://spark.apache.org/)'s scalable Machine Learning library."},
+            {"url": "JohnLangford/vowpal_wabbit"},
+            {"url": "dmlc/xgboost"}
+          ]
+        },
+        {
+          "title" : "Microsoft Windows",
+          "description": "Python programming on Microsoft Windows.",
+          "items": [
+            {"url": "http://python-xy.github.io/", "name": "Python(x,y)", "description": "Scientific-applications-oriented Python Distribution based on Qt and Spyder."},
+            {"url": "http://www.lfd.uci.edu/~gohlke/pythonlibs/", "name": "pythonlibs", "description": "Unofficial Windows binaries for Python extension packages."},
+            {"url": "pythonnet/pythonnet"},
+            {"url": "https://sourceforge.net/projects/pywin32/", "name": "PyWin32", "description": "Python Extensions for Windows."},
+            {"url": "https://winpython.github.io/", "name": "WinPython", "description": "Portable development environment for Windows 7/8."}
+          ]
+        },
+        {
+          "title" : "Miscellaneous",
+          "description": "Useful libraries or tools that don't fit in the categories above.",
+          "items": [
+            {"url": "jek/blinker"},
+            {"url": "pallets/itsdangerous"},
+            {"url": "mitsuhiko/pluginbase"},
+            {"url": "PacketPerception/pychievements"},
+            {"url": "http://www.tryton.org/", "name": "Tryton", "description": "A general purpose business framework."}
+          ]
+        },
+        {
+          "title" : "Natural Language Processing",
+          "description": "Libraries for working with human languages.",
+          "items": [
+            {"url": "RaRe-Technologies/gensim"},
+            {"url": "fxsjy/jieba"},
+            {"url": "saffsd/langid.py"},
+            {"url": "http://www.nltk.org/", "name": "NLTK", "description": "A leading platform for building Python programs to work with human language data."},
+            {"url": "http://www.clips.ua.ac.be/pattern", "name": "Pattern", "description": "A web mining module for the Python."},
+            {"url": "aboSamoor/polyglot"},
+            {"url": "isnowfy/snownlp"},
+            {"url": "https://spacy.io/", "name": "spaCy", "description": "A library for industrial-strength natural language processing in Python and Cython."},
+            {"url": "sloria/TextBlob"},
+            {"url": "PetrochukM/PyTorch-NLP"}
+          ]
+        },
+        {
+          "title" : "Network Virtualization",
+          "description": "Tools and libraries for Virtual Networking and SDN (Software Defined Networking).",
+          "items": [
+            {"url": "http://mininet.org/", "name": "Mininet", "description": "A popular network emulator and API written in Python."},
+            {"url": "noxrepo/pox"},
+            {"url": "http://frenetic-lang.org/pyretic/", "name": "Pyretic", "description": "A member of the Frenetic family of SDN programming languages that provides powerful abstractions over network switches or emulators."},
+            {"url": "sdn-ixp/internet2award"}
+          ]
+        },
+        {
+          "title" : "Networking",
+          "description": "Libraries for networking programming.",
+          "items": [
+            {"url": "https://docs.python.org/3/library/asyncio.html", "name": "asyncio", "description": "(Python standard library) Asynchronous I/O, event loop, coroutines and tasks."},
+            {"url": "timofurrer/awesome-asyncio"},
+            {"url": "dieseldev/diesel"},
+            {"url": "quantmind/pulsar"},
+            {"url": "http://zeromq.github.io/pyzmq/", "name": "pyzmq", "description": "A Python wrapper for the ZeroMQ message library."},
+            {"url": "https://twistedmatrix.com/trac/", "name": "Twisted", "description": "An event-driven networking engine."},
+            {"url": "smira/txZMQ"},
+            {"url": "napalm-automation/napalm"}
+          ]
+        },
+        {
+          "title" : "News Feed",
+          "description": "Libraries for building user's activities.",
+          "items": [
+            {"url": "justquick/django-activity-stream"},
+            {"url": "tschellenbach/Stream-Framework"}
+          ]
+        },
+        {
+          "title" : "ORM",
+          "description": "Libraries that implement Object-Relational Mapping or data mapping techniques.",
+          "categories": [
+            {
+              "title": "Relational Databases",
+              "items": [
+                {"url": "https://docs.djangoproject.com/en/dev/topics/db/models/", "name": "Django Models", "description": "A part of Django."},
+                {"url": "http://www.sqlalchemy.org/", "name": "SQLAlchemy", "description": "The Python SQL Toolkit and Object Relational Mapper."},
+                {"url": "dahlia/awesome-sqlalchemy"},
+                {"url": "https://orator-orm.com", "name": "Orator", "description": " The Orator ORM provides a simple yet beautiful ActiveRecord implementation."},
+                {"url": "coleifer/peewee"},
+                {"url": "https://ponyorm.com/", "name": "PonyORM", "description": "ORM that provides a generator-oriented interface to SQL."},
+                {"url": "web2py/pydal"},
+                {"url": "https://pypi.python.org/pypi/python-sql", "name": "python-sql", "description": "Write SQL queries pythonically."}
+              ]
+            },
+            {
+              "title": "NoSQL Databases",
+              "items": [
+                {"url": "django-nonrel/mongodb-engine"},
+                {"url": "stevearc/flywheel"},
+                {"url": "stephenmcd/hot-redis"},
+                {"url": "http://mongoengine.org/", "name": "MongoEngine", "description": "A Python Object-Document-Mapper for working with MongoDB."},
+                {"url": "pynamodb/PynamoDB"},
+                {"url": "kiddouk/redisco"}
+              ]
+            },
+            {
+              "title": "Others",
+              "items": [
+                {"url": "terrible-ideas/butterdb"},
+                {"url": "pudo/dataset"}
+              ]
+            }
+          ]
+        },
+        {
+          "title" : "Package Management",
+          "description": "Libraries for package and dependency management.",
+          "items": [
+            {"url": "https://pip.pypa.io/en/stable/", "name": "pip", "description": "The Python package and dependency manager [Python Package Index](https://pypi.python.org/pypi)."},
+            {"url": "conda/conda"},
+            {"url": "http://clarete.li/curdling/", "name": "Curdling", "description": "Curdling is a command line tool for managing Python packages."},
+            {"url": "jazzband/pip-tools"},
+            {"url": "http://pythonwheels.com/", "name": "wheel", "description": "The new standard of Python distribution and are intended to replace eggs."}
+          ]
+        },
+        {
+          "title" : "Package Repositories",
+          "description": "Local PyPI repository server and proxies.",
+          "items": [
+            {"url": "pypa/warehouse"},
+            {"url": "https://bitbucket.org/pypa/bandersnatch", "name": "bandersnatch", "description": "PyPI mirroring tool provided by Python Packaging Authority (PyPA)."},
+            {"url": "http://doc.devpi.net/latest/", "name": "devpi", "description": "PyPI server and packaging/testing/release tool."},
+            {"url": "jazzband/localshop"}
+          ]
+        },
+        {
+          "title" : "Permissions",
+          "description": "Libraries that allow or deny users access to data or functionality.",
+          "items": [
+            {"url": "neuman/python-carteblanche"},
+            {"url": "django-guardian/django-guardian"},
+            {"url": "dfunckt/django-rules"}
+          ]
+        },
+        {
+          "title" : "Processes",
+          "description": "Libraries for starting and communicating with OS processes.",
+          "items": [
+            {"url": "kennethreitz/delegator.py"},
+            {"url": "http://sarge.readthedocs.io/en/latest/", "name": "sarge", "description": "Yet another wrapper for subprocess."},
+            {"url": "amoffat/sh"}
+          ]
+        },
+        {
+          "title" : "Queue",
+          "description": "Libraries for working with event and task queues.",
+          "items": [
+            {"url": "http://www.celeryproject.org/", "name": "celery", "description": "An asynchronous task queue/job queue based on distributed message passing."},
+            {"url": "coleifer/huey"},
+            {"url": "pricingassistant/mrq"},
+            {"url": "http://python-rq.org/", "name": "rq", "description": "Simple job queues for Python."},
+            {"url": "rdegges/simpleq"}
+          ]
+        },
+        {
+          "title" : "Recommender Systems",
+          "description": "Libraries for building recommender systems.",
+          "items": [
+            {"url": "spotify/annoy"},
+            {"url": "ibayer/fastFM"},
+            {"url": "benfred/implicit"},
+            {"url": "guestwalk/libffm"},
+            {"url": "lyst/lightfm"},
+            {"url": "maciejkula/spotlight"},
+            {"url": "http://surpriselib.com", "name": "surprise", "description": "A scikit for building and analyzing recommender systems."},
+            {"url": "jfkirk/tensorrec"}
+          ]
+        },
+        {
+          "title" : "RESTful API",
+          "description": "Libraries for developing RESTful APIs.",
+          "categories": [
+            {
+              "title": "Django",
+              "items": [
+                {"url": "http://www.django-rest-framework.org/", "name": "django-rest-framework", "description": "A powerful and flexible toolkit to build web APIs."},
+                {"url": "http://tastypieapi.org/", "name": "django-tastypie", "description": "Creating delicious APIs for Django apps."}
+              ]
+            },
+            {
+              "title": "Flask",
+              "items": [
+                {"url": "pyeve/eve"},
+                {"url": "marselester/flask-api-utils"},
+                {"url": "http://www.flaskapi.org/", "name": "flask-api", "description": "Browsable Web APIs for Flask."},
+                {"url": "flask-restful/flask-restful"},
+                {"url": "jfinkels/flask-restless"}
+              ]
+            },
+            {
+              "title": "Pyramid",
+              "items": [
+                {"url": "Cornices/cornice"}
+              ]
+            },
+            {
+              "title": "Framework agnostic",
+              "items": [
+                {"url": "http://falconframework.org/", "name": "falcon", "description": "A high-performance framework for building cloud APIs and web app backends."},
+                {"url": "timothycrosley/hug"},
+                {"url": "toastdriven/restless"},
+                {"url": "vertical-knowledge/ripozo"},
+                {"url": "jeffknupp/sandman"},
+                {"url": "encode/apistar"}
+              ]
+            }
+          ]
+        },
+        {
+          "title" : "Robotics",
+          "description": "Libraries for robotics.",
+          "items": [
+            {"url": "AtsushiSakai/PythonRobotics"},
+            {"url": "http://wiki.ros.org/rospy", "name": "rospy", "description": "This is a library for ROS (Robot Operating System)."}
+          ]
+        },
+        {
+          "title" : "RPC Servers",
+          "description": "RPC-compatible servers.",
+          "items": [
+            {"url": "joshmarshall/jsonrpclib"},
+            {"url": "https://docs.python.org/3/library/xmlrpc.server.html", "name": "SimpleXMLRPCServer", "description": "(Python standard library) Simple XML-RPC server implementation, single-threaded."},
+            {"url": "0rpc/zerorpc-python"}
+          ]
+        },
+        {
+          "title" : "Science",
+          "description": "Libraries for scientific computing.",
+          "items": [
+            {"url": "http://www.astropy.org/", "name": "astropy", "description": "A community Python library for Astronomy."},
+            {"url": "chapmanb/bcbio-nextgen"},
+            {"url": "chapmanb/bcbb"},
+            {"url": "http://biopython.org/wiki/Main_Page", "name": "Biopython", "description": "Biopython is a set of freely available tools for biological computation."},
+            {"url": "http://cclib.github.io/", "name": "cclib", "description": "A library for parsing and interpreting the results of computational chemistry packages."},
+            {"url": "http://colour-science.org/", "name": "Colour", "description": "A colour science package implementing a comprehensive number of colour theory transformations and algorithms."},
+            {"url": "https://networkx.github.io/", "name": "NetworkX", "description": "A high-productivity software for complex networks."},
+            {"url": "http://nipy.org", "name": "NIPY", "description": "A collection of neuroimaging toolkits."},
+            {"url": "http://www.numpy.org/", "name": "NumPy", "description": "A fundamental package for scientific computing with Python."},
+            {"url": "http://openbabel.org/wiki/Main_Page", "name": "Open Babel", "description": "A chemical toolbox designed to speak the many languages of chemical data."},
+            {"url": "obspy/obspy"},
+            {"url": "http://www.pydy.org/", "name": "PyDy", "description": "Short for Python Dynamics, used to assist with workflow in the modeling of dynamic motion."},
+            {"url": "pymc-devs/pymc3"},
+            {"url": "http://qutip.org/", "name": "QuTiP", "description": "Quantum Toolbox in Python."},
+            {"url": "http://www.rdkit.org/", "name": "RDKit", "description": "Cheminformatics and Machine Learning Software."},
+            {"url": "https://www.scipy.org/", "name": "SciPy", "description": "A Python-based ecosystem of open-source software for mathematics, science, and engineering."},
+            {"url": "statsmodels/statsmodels"},
+            {"url": "sympy/sympy"},
+            {"url": "quantopian/zipline"},
+            {"url": "https://bitbucket.org/simpy/simpy", "name": "SimPy", "description": " A process-based discrete-event simulation framework."}
+          ]
+        },
+        {
+          "title" : "Search",
+          "description": "Libraries and software for indexing and performing search queries on data.",
+          "items": [
+            {"url": "django-haystack/django-haystack"},
+            {"url": "elastic/elasticsearch-dsl-py"},
+            {"url": "https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html", "name": "elasticsearch-py", "description": "The official low-level Python client for [Elasticsearch](https://www.elastic.co/products/elasticsearch)."},
+            {"url": "seek-ai/esengine"},
+            {"url": "django-haystack/pysolr"},
+            {"url": "edsu/solrpy"},
+            {"url": "http://whoosh.readthedocs.io/en/latest/", "name": "Whoosh", "description": "A fast, pure Python search engine library."}
+          ]
+        },
+        {
+          "title" : "Serialization",
+          "description": "Libraries for serializing complex data types",
+          "items": [
+            {"url": "marshmallow-code/marshmallow"}
+          ]
+        },
+        {
+          "title" : "Serverless Frameworks",
+          "description": "Frameworks for developing serverless Python code.",
+          "items": [
+            {"url": "apex/apex"},
+            {"url": "nficano/python-lambda"},
+            {"url": "Miserlou/Zappa"}
+          ]
+        },
+        {
+          "title" : "Specific Formats Processing",
+          "description": "Libraries for parsing and manipulating specific text formats.",
+          "categories": [
+            {
+              "title": "General",
+              "items": [
+                {"url": "kennethreitz/tablib"}
+              ]
+            },
+            {
+              "title": "Office",
+              "items": [
+                {"url": "brianray/mm"},
+                {"url": "https://openpyxl.readthedocs.io/en/stable/", "name": "openpyxl", "description": "A library for reading and writing Excel 2010 xlsx/xlsm/xltx/xltm files."},
+                {"url": "pyexcel/pyexcel"},
+                {"url": "python-openxml/python-docx"},
+                {"url": "scanny/python-pptx"},
+                {"url": "http://relatorio.tryton.org/", "name": "relatorio", "description": "Templating OpenDocument files."},
+                {"url": "dagwieers/unoconv"},
+                {"url": "https://xlsxwriter.readthedocs.io", "name": "XlsxWriter", "description": "A Python module for creating Excel .xlsx files."},
+                {"url": "https://www.xlwings.org", "name": "xlwings", "description": "A BSD-licensed library that makes it easy to call Python from Excel and vice versa."},
+                {"url": "python-excel/xlrd"}
+              ]
+            },
+            {
+              "title": "PDF",
+              "items": [
+                {"url": "euske/pdfminer"},
+                {"url": "mstamy2/PyPDF2"},
+                {"url": "http://www.reportlab.com/opensource/", "name": "ReportLab", "description": "Allowing Rapid creation of rich PDF documents."}
+              ]
+            },
+            {
+              "title": "Markdown",
+              "items": [
+                {"url": "lepture/mistune"},
+                {"url": "waylan/Python-Markdown"}
+              ]
+            },
+            {
+              "title": "YAML",
+              "items": [
+                {"url": "http://pyyaml.org/", "name": "PyYAML", "description": "YAML implementations for Python."}
+              ]
+            },
+            {
+              "title": "CSV",
+              "items": [
+                {"url": "wireservice/csvkit"}
+              ]
+            },
+            {
+              "title": "Archive",
+              "items": [
+                {"url": "mitsuhiko/unp"}
+              ]
+            }
+          ]
+        },
+        {
+          "title" : "Static Site Generator",
+          "description": "Static site generator is a software that takes some text + templates as input and produces HTML files on the output.",
+          "items": [
+            {"url": "eudicots/Cactus"},
+            {"url": "http://hyde.github.io/", "name": "Hyde", "description": "Jinja2-based static web site generator."},
+            {"url": "https://www.getlektor.com/", "name": "Lektor", "description": "An easy to use static CMS and blog engine."},
+            {"url": "https://www.getnikola.com/", "name": "Nikola", "description": "A static website and blog generator."},
+            {"url": "https://blog.getpelican.com/", "name": "Pelican", "description": "Uses Markdown or ReST for content and Jinja 2 for themes. Supports DVCS, Disqus. AGPL."},
+            {"url": "http://tinkerer.me/", "name": "Tinkerer", "description": "Tinkerer is a blogging engine/.static website generator powered by Sphinx."}
+          ]
+        },
+        {
+          "title" : "Tagging",
+          "description": "Libraries for tagging items.",
+          "items": [
+            {"url": "alex/django-taggit"}
+          ]
+        },
+        {
+          "title" : "Template Engine",
+          "description": "Libraries and tools for templating and lexing.",
+          "items": [
+            {"url": "https://genshi.edgewall.org/", "name": "Genshi", "description": "Python templating toolkit for generation of web-aware output."},
+            {"url": "pallets/jinja"},
+            {"url": "http://www.makotemplates.org/", "name": "Mako", "description": "Hyperfast and lightweight templating for the Python platform."}
+          ]
+        },
+        {
+          "title" : "Testing",
+          "description": "Libraries for testing codebases and generating test data.",
+          "categories": [
+            {
+              "title": "Testing Frameworks",
+              "items": [
+                {"url": "HypothesisWorks/hypothesis-python"},
+                {"url": "http://nestorsalceda.github.io/mamba/", "name": "mamba", "description": "The definitive testing tool for Python. Born under the banner of BDD."},
+                {"url": "nose-devs/nose"},
+                {"url": "nose-devs/nose2"},
+                {"url": "https://docs.pytest.org/en/latest/", "name": "pytest", "description": "A mature full-featured Python testing tool."},
+                {"url": "robotframework/robotframework"},
+                {"url": "https://docs.python.org/3/library/unittest.html", "name": "unittest", "description": "(Python standard library) Unit testing framework."}
+              ]
+            },
+            {
+              "title": "Test Runners",
+              "items": [
+                {"url": "CleanCut/green"},
+                {"url": "https://tox.readthedocs.io/en/latest/", "name": "tox", "description": "Auto builds and tests distributions in multiple Python versions"}
+              ]
+            },
+            {
+              "title": "GUI / Web Testing",
+              "items": [
+                {"url": "locustio/locust"},
+                {"url": "asweigart/pyautogui"},
+                {"url": "https://pypi.python.org/pypi/selenium", "name": "Selenium", "description": "Python bindings for [Selenium](http://www.seleniumhq.org/) WebDriver."},
+                {"url": "seatgeek/sixpack"},
+                {"url": "cobrateam/splinter"}
+              ]
+            },
+            {
+              "title": "Mock",
+              "items": [
+                {"url": "https://pypi.python.org/pypi/doublex", "name": "doublex", "description": "Powerful test doubles framework for Python."},
+                {"url": "spulec/freezegun"},
+                {"url": "patrys/httmock"},
+                {"url": "gabrielfalcao/HTTPretty"},
+                {"url": "https://docs.python.org/3/library/unittest.mock.html", "name": "mock", "description": "(Python standard library) A mocking and patching library."},
+                {"url": "mindflayer/python-mocket"},
+                {"url": "getsentry/responses"},
+                {"url": "kevin1024/vcrpy"}
+              ]
+            },
+            {
+              "title": "Object Factories",
+              "items": [
+                {"url": "FactoryBoy/factory_boy"},
+                {"url": "klen/mixer"},
+                {"url": "vandersonmota/model_mommy"}
+              ]
+            },
+            {
+              "title": "Code Coverage",
+              "items": [
+                {"url": "https://pypi.python.org/pypi/coverage", "name": "coverage", "description": "Code coverage measurement."}
+              ]
+            },
+            {
+              "title": "Fake Data",
+              "items": [
+                {"url": "lk-geimfari/mimesis"},
+                {"url": "emirozer/fake2db"},
+                {"url": "joke2k/faker"},
+                {"url": "https://pypi.python.org/pypi/radar", "name": "radar", "description": "Generate random datetime / time."}
+              ]
+            },
+            {
+              "title": "Error Handler",
+              "items": [
+                {"url": "ajalt/fuckitpy"}
+              ]
+            }
+          ]
+        },
+        {
+          "title" : "Text Processing",
+          "description": "Libraries for parsing and manipulating plain texts.",
+          "categories": [
+            {
+              "title": "General",
+              "items": [
+                {"url": "chardet/chardet"},
+                {"url": "https://docs.python.org/3/library/difflib.html", "name": "difflib", "description": "(Python standard library) Helpers for computing deltas."},
+                {"url": "LuminosoInsight/python-ftfy"},
+                {"url": "seatgeek/fuzzywuzzy"},
+                {"url": "davidaurelio/hashids-python"},
+                {"url": "ztane/python-Levenshtein"},
+                {"url": "vinta/pangu.py"},
+                {"url": "pwaller/pyfiglet"},
+                {"url": "mozillazg/python-pinyin"},
+                {"url": "skorokithakis/shortuuid"},
+                {"url": "orsinium/textdistance"},
+                {"url": "https://pypi.python.org/pypi/Unidecode", "name": "unidecode", "description": "ASCII transliterations of Unicode text."},
+                {"url": "moskytw/uniout"},
+                {"url": "lxneng/xpinyin"}
+              ]
+            },
+            {
+              "title": "Slugify",
+              "items": [
+                {"url": "dimka665/awesome-slugify"},
+                {"url": "un33k/python-slugify"},
+                {"url": "mozilla/unicode-slugify"}
+              ]
+            },
+            {
+              "title": "Parser",
+              "items": [
+                {"url": "daviddrysdale/python-phonenumbers"},
+                {"url": "http://www.dabeaz.com/ply/", "name": "PLY", "description": "Implementation of lex and yacc parsing tools for Python."},
+                {"url": "http://pygments.org/", "name": "Pygments", "description": "A generic syntax highlighter."},
+                {"url": "pyparsing/pyparsing"},
+                {"url": "derek73/python-nameparser"},
+                {"url": "selwin/python-user-agents"},
+                {"url": "andialbrecht/sqlparse"}
+              ]
+            }
+          ]
+        },
+        {
+          "title" : "Third-party APIs",
+          "description": "Libraries for accessing third party services APIs. See: [List of Python API Wrappers and Libraries](https://github.com/realpython/list-of-python-api-wrappers).",
+          "items": [
+            {"url": "https://libcloud.apache.org/", "name": "apache-libcloud", "description": "One Python library for all clouds."},
+            {"url": "boto/boto3"},
+            {"url": "istrategylabs/django-wordpress"},
+            {"url": "mobolic/facebook-sdk"},
+            {"url": "jgorset/facepy"},
+            {"url": "charlierguo/gmail"},
+            {"url": "google/google-api-python-client"},
+            {"url": "burnash/gspread"},
+            {"url": "ryanmcgrath/twython"}
+          ]
+        },
+        {
+          "title" : "URL Manipulation",
+          "description": "Libraries for parsing URLs.",
+          "items": [
+            {"url": "gruns/furl"},
+            {"url": "codeinthehole/purl"},
+            {"url": "ellisonleao/pyshorteners"},
+            {"url": "Alir3z4/python-short_url"},
+            {"url": "sloria/webargs"}
+          ]
+        },
+        {
+          "title" : "Video",
+          "description": "Libraries for manipulating video and GIFs.",
+          "items": [
+            {"url": "http://zulko.github.io/moviepy/", "name": "moviepy", "description": "A module for script-based movie editing with many formats, including animated GIFs."},
+            {"url": "aizvorski/scikit-video"}
+          ]
+        },
+        {
+          "title" : "WSGI Servers",
+          "description": "WSGI-compatible web servers.",
+          "items": [
+            {"url": "https://pypi.python.org/pypi/bjoern", "name": "bjoern", "description": "Asynchronous, very fast and written in C."},
+            {"url": "http://www.fapws.org/", "name": "fapws3", "description": "Asynchronous (network side only), written in C."},
+            {"url": "https://pypi.python.org/pypi/gunicorn", "name": "gunicorn", "description": "Pre-forked, partly written in C."},
+            {"url": "https://pypi.python.org/pypi/meinheld", "name": "meinheld", "description": "Asynchronous, partly written in C."},
+            {"url": "hivesolutions/netius"},
+            {"url": "https://pypi.python.org/pypi/rocket", "name": "rocket", "description": "Multi-threaded."},
+            {"url": "https://uwsgi-docs.readthedocs.io/en/latest/", "name": "uWSGI", "description": "A project aims at developing a full stack for building hosting services, written in C."},
+            {"url": "https://waitress.readthedocs.io/en/latest/", "name": "waitress", "description": "Multi-threaded, powers Pyramid."},
+            {"url": "http://werkzeug.pocoo.org/", "name": "Werkzeug", "description": "A WSGI utility library for Python that powers Flask and can easily be embedded into your own projects."}
+          ]
+        },
+        {
+          "title" : "Web Content Extracting",
+          "description": "Libraries for extracting web contents.",
+          "items": [
+            {"url": "vinta/Haul"},
+            {"url": "Alir3z4/html2text"},
+            {"url": "michaelhelmick/lassie"},
+            {"url": "coleifer/micawber"},
+            {"url": "codelucas/newspaper"},
+            {"url": "grangier/python-goose"},
+            {"url": "buriy/python-readability"},
+            {"url": "kennethreitz/requests-html"},
+            {"url": "Alir3z4/python-sanitize"},
+            {"url": "miso-belica/sumy"},
+            {"url": "deanmalmgren/textract"},
+            {"url": "gaojiuli/toapi"}
+          ]
+        },
+        {
+          "title" : "Web Crawling & Web Scraping",
+          "description": "Libraries to automate data extraction from websites.",
+          "items": [
+            {"url": "chineking/cola"},
+            {"url": "matiasb/demiurge"},
+            {"url": "http://pythonhosted.org/feedparser/", "name": "feedparser", "description": "Universal feed parser."},
+            {"url": "http://grablib.org/", "name": "Grab", "description": "Site scraping framework."},
+            {"url": "hickford/MechanicalSoup"},
+            {"url": "scrapinghub/portia"},
+            {"url": "binux/pyspider"},
+            {"url": "jmcarp/robobrowser"},
+            {"url": "https://scrapy.org/", "name": "Scrapy", "description": "A fast high-level screen scraping and web crawling framework."}
+          ]
+        },
+        {
+          "title" : "Web Frameworks",
+          "description": "Full stack web frameworks.",
+          "items": [
+            {"url": "https://www.djangoproject.com/", "name": "Django", "description": "The most popular web framework in Python."},
+            {"url": "wsvincent/awesome-django"},
+            {"url": "http://flask.pocoo.org/", "name": "Flask", "description": "A microframework for Python."},
+            {"url": "humiaozuzu/awesome-flask"},
+            {"url": "https://pylonsproject.org/", "name": "Pyramid", "description": "A small, fast, down-to-earth, open source Python web framework."},
+            {"url": "uralbash/awesome-pyramid"},
+            {"url": "channelcat/sanic"},
+            {"url": "http://www.tornadoweb.org/en/latest/", "name": "Tornado", "description": "A Web framework and asynchronous networking library."},
+            {"url": "https://vibora.io/", "name": "Vibora", "description": "Fast, efficient and asynchronous Web framework inspired by Flask."}
+          ]
+        },
+        {
+          "title" : "WebSocket",
+          "description": "Libraries for working with WebSocket.",
+          "items": [
+            {"url": "crossbario/autobahn-python"},
+            {"url": "crossbario/crossbar"},
+            {"url": "django/channels"},
+            {"url": "stephenmcd/django-socketio"},
+            {"url": "Lawouach/WebSocket-for-Python"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Services",
+      "description": "Online tools and APIs to simplify development.",
+      "categories": [
+        {
+          "title" : "Continuous Integration",
+          "description": "See: [awesome-CIandCD](https://github.com/ciandcd/awesome-ciandcd#online-build-system).",
+          "items": [
+            {"url": "https://circleci.com/", "name": "CircleCI", "description": "A CI service that can run very fast parallel testing. (GitHub only)"},
+            {"url": "https://travis-ci.org", "name": "Travis CI", "description": "A popular CI service for your open source and [private](https://travis-ci.com) projects. (GitHub only)"},
+            {"url": "https://vexor.io", "name": "Vexor CI", "description": "A continuous integration tool for private apps with pay-per-minute billing model."},
+            {"url": "http://www.wercker.com/", "name": "Wercker", "description": "A Docker-based platform for building and deploying applications and microservices."}
+          ]
+        },
+        {
+          "title" : "Code Quality",
+          "items": [
+            {"url": "https://www.codacy.com/", "name": "Codacy", "description": "Automated Code Review to ship better code, faster."},
+            {"url": "https://codecov.io/", "name": "Codecov", "description": "Code coverage dashboard."},
+            {"url": "https://www.codefactor.io/", "name": "CodeFactor", "description": "Automated Code Review for Git."},
+            {"url": "https://landscape.io/", "name": "Landscape", "description": "Hosted continuous Python code metrics."}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Resources",
+      "description": "Where to discover new Python libraries.",
+      "categories": [
+        {
+          "title": "Podcasts",
+          "items": [
+            {"url": "http://frompythonimportpodcast.com/", "name": "From Python Import Podcast"},
+            {"url": "https://podcastinit.com/", "name": "Podcast.init"},
+            {"url": "https://pythonbytes.fm", "name": "Python Bytes"},
+            {"url": "http://pythontesting.net", "name": "Python Testing"},
+            {"url": "http://radiofreepython.com/", "name": "Radio Free Python"},
+            {"url": "https://talkpython.fm/", "name": "Talk Python To Me"}
+          ]
+        },
+        {
+          "title": "Twitter",
+          "items": [
+            {"url": "https://twitter.com/codetengu", "name": "@codetengu"},
+            {"url": "https://twitter.com/getpy", "name": "@getpy"},
+            {"url": "https://twitter.com/importpython", "name": "@importpython"},
+            {"url": "https://twitter.com/planetpython", "name": "@planetpython"},
+            {"url": "https://twitter.com/pycoders", "name": "@pycoders"},
+            {"url": "https://twitter.com/pypi", "name": "@pypi"},
+            {"url": "https://twitter.com/pythontrending", "name": "@pythontrending"},
+            {"url": "https://twitter.com/PythonWeekly", "name": "@PythonWeekly"},
+            {"url": "https://twitter.com/talkpython", "name": "@TalkPython"},
+            {"url": "https://twitter.com/realpython", "name": "@realpython"}
+          ]
+        },
+        {
+          "title": "Websites",
+          "items": [
+            {"url": "https://www.reddit.com/r/coolgithubprojects/", "name": "/r/CoolGithubProjects"},
+            {"url": "https://www.reddit.com/r/python", "name": "/r/Python"},
+            {"url": "https://python.libhunt.com/", "name": "Awesome Python @LibHunt"},
+            {"url": "https://djangopackages.org/", "name": "Django Packages"},
+            {"url": "https://www.fullstackpython.com/", "name": "Full Stack Python"},
+            {"url": "http://pypi-ranking.info/alltime", "name": "PyPI Ranking"},
+            {"url": "http://python3wos.appspot.com/", "name": "Python 3 Wall of Superpowers"},
+            {"url": "http://www.oss.io/open-source/", "name": "Python Hackers"},
+            {"url": "https://python.zeef.com/alan.richmond", "name": "Python ZEEF"},
+            {"url": "https://www.ctolib.com/python/", "name": "Python 开发社区"},
+            {"url": "https://realpython.com", "name": "Real Python"},
+            {"url": "https://github.com/trending?l=python", "name": "Trending Python repositories on GitHub today"}
+          ]
+        },
+        {
+          "title": "Weekly",
+          "items": [
+            {"url": "https://weekly.codetengu.com/", "name": "CodeTengu Weekly 碼天狗週刊"},
+            {"url": "http://importpython.com/newsletter/", "name": "Import Python Newsletter"},
+            {"url": "http://pycoders.com/", "name": "Pycoder's Weekly"},
+            {"url": "http://www.pythonweekly.com/", "name": "Python Weekly"},
+            {"url": "https://realpython.com/python-tricks/", "name": "Python Tricks"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Other Awesome Lists",
+      "description": "List of lists.",
+      "categories": [
+        {
+          "title": "Monty",
+          "items": [
+            {"url": "sindresorhus/awesome"},
+            {"url": "lk-geimfari/awesomo"},
+            {"url": "jnv/lists"}
+          ]
+        },
+        {
+          "title": "Python",
+          "items": [
+            {"url": "kirang89/pycrumbs"},
+            {"url": "checkcheckzz/python-github-projects"},
+            {"url": "rasbt/python_reference"},
+            {"url": "svaksha/pythonidae"},
+            {"url": "https://www.cybrhome.com/topic/python-podcasts"},
+            {"url": "metakermit/awesome-python-for-social-good"}
+          ]
+        }
+      ]
+    }
+  ]
+}
