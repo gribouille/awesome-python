@@ -825,6 +825,7 @@ An enriched version of the [awesome-python](https://github.com/vinta/awesome-pyt
 * [python-geojson](https://github.com/jazzband/python-geojson) <img src="assets/star.png" width="16" /> 398 <img src="assets/license.png" width="16" /> [BSD-3-Clause](https://api.github.com/licenses/bsd-3-clause)- Python bindings and utilities for GeoJSON
 * [geoip-api-python](https://github.com/maxmind/geoip-api-python) <img src="assets/star.png" width="16" /> 184 <img src="assets/license.png" width="16" /> [LGPL-2.1](https://api.github.com/licenses/lgpl-2.1)- GeoIP Legacy Python API
 * [GeoDjango](https://docs.djangoproject.com/en/dev/ref/contrib/gis/) - A world-class geographic web framework.
+* [IP2Location.io](https://github.com/ip2location/ip2location-io-python) <img src="assets/star.png" width="16" /> 3 <img src="assets/license.png" width="16" /> [MIT](https://api.github.com/licenses/mit)- Allows user to query for an enriched data set based on IP address and provides WHOIS lookup api that helps users to obtain domain information..
 
 
 ### HTML Manipulation
